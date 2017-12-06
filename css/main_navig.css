@@ -1,0 +1,81 @@
+h1{
+    padding-top: 50px;
+}
+
+.box{
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 0;
+    ;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.header{
+    text-align: left;
+    position: absolute;
+}
+
+.small{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    padding: 0;
+
+
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    padding: 5px;
+    background: red;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+
+    background-color: #ffffff;
+    color: #0b9190;
+    margin: 5px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    background-color: #0b9190;
+    color: #ffffff;
+    margin: 9px 25px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #ffffff;
+    color: #0b9190;
+    margin: 9px 25px;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.navbar-inverse{
+    background-color: #0b9190;
+    border: 0px;
+}
+
+.glyphicon-headphones{
+    color: #ffffff;
+}
